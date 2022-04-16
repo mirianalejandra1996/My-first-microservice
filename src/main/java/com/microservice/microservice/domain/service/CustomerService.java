@@ -9,9 +9,9 @@ import java.util.List;
 public interface CustomerService {
     // Creation of methods of CategoryCustomer interface.
     List<Customer> findAllCustomers();
-    Customer findCustomerById (Long id);
+    Customer findCustomerById (int id);
     Customer createCustomer (CustomerDto customerDto);
     Customer updateCustomer (CustomerDto customerDto);
 
-    void deleteCustomerById(Long id);
+    void deleteCustomerById(int id);
 }

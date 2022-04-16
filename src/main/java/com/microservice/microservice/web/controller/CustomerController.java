@@ -25,7 +25,7 @@ public class CustomerController {
 
     @RequestMapping("getById/{id}")
     @GetMapping(value = "/{id}", produces = "application/json")
-    public ResponseEntity<Customer> getCustomerById(@PathVariable("id") Long id){
+    public ResponseEntity<Customer> getCustomerById(@PathVariable("id") int id){
         return new ResponseEntity<>(customerService.findCustomerById(id), HttpStatus.OK );
     }
 
@@ -43,7 +43,7 @@ public class CustomerController {
 
     @RequestMapping("deletecliente")
     @DeleteMapping( value = "/{id}")
-    public ResponseEntity deleteCustomerById(@PathVariable("id") Long id){
+    public ResponseEntity deleteCustomerById(@PathVariable("id") Integer id){
         customerService.deleteCustomerById(id);
         return new ResponseEntity(HttpStatus.OK );
     }

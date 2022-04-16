@@ -19,15 +19,15 @@ public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
 
-    private Long id;
+    private int id;
     @Column(nullable = false)
-    private Number dni;
+    private int dni;
     @Column(nullable = false, length = 30)
     private String name;
     @Column(nullable = false, length = 30)
     private String lastname;
     @Column(nullable = false)
-    private Number age;
+    private int age;
     @Column(nullable = false, length = 30)
     private String birth;
     @Column(nullable = false)

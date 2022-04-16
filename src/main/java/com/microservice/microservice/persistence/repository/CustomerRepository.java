@@ -5,13 +5,13 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CustomerRepository extends CrudRepository<Customer, Long> {
+public interface CustomerRepository extends CrudRepository<Customer, Integer> {
     //Methods that will be the database request
 
     // Find a customer by id
-    Customer findCustomerById(Long id);
+    Customer findCustomerById(int id);
 
-    Boolean existsByDni(Number dni);
+    Boolean existsByDni(int dni);
 
 
 }

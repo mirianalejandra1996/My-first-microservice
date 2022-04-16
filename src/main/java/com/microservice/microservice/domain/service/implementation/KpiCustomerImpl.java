@@ -21,7 +21,7 @@ public class KpiCustomerImpl implements KpiCustomerService {
         //Calculate media (average)
         double suma = 0;
         for(Customer customer : listAllCustomers) {
-            double edad = customer.getAge().doubleValue();
+            int edad = customer.getAge();
             suma = (suma + edad);
         }
 
@@ -32,7 +32,7 @@ public class KpiCustomerImpl implements KpiCustomerService {
         double summation = 0;
 
         for(Customer customer : listAllCustomers) {
-            double age = customer.getAge().doubleValue();
+            int age = customer.getAge();
             summation = Math.pow(age - media, 2);
             variance = variance + summation;
         }

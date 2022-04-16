@@ -7,11 +7,11 @@ import lombok.Setter;
 
 @AllArgsConstructor @NoArgsConstructor @Getter @Setter
 public class CustomerDto {
-    private Long id;
-    private Number dni;
+    private int id;
+    private int dni;
     private String name;
     private String lastname;
-    private Number age;
+    private int age;
     private String birth;
     private Boolean isAlive;
 }

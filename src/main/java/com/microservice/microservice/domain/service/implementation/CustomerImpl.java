@@ -22,7 +22,7 @@ public class CustomerImpl implements CustomerService {
 
     //void will not return anything
     // private void customerExist(Long id){
-    private void customerDniExist(Number dni){
+    private void customerDniExist(int dni){
         //if (customerRepository.existsById(id)){
         if (customerRepository.existsByDni(dni)){
             throw new DuplicateKeyException("The dni of the customer is already registered");
@@ -37,7 +37,7 @@ public class CustomerImpl implements CustomerService {
     }
 
     @Override
-    public Customer findCustomerById(Long id) {
+    public Customer findCustomerById(int id) {
 
         //In case if customerNotExist I can create this variable "Customer"
         Customer customer = customerRepository.findCustomerById(id);
@@ -69,7 +69,7 @@ public class CustomerImpl implements CustomerService {
     }
 
     @Override
-    public void deleteCustomerById(Long id){
+    public void deleteCustomerById(int id){
         this.findCustomerById(id);
         customerRepository.deleteById(id);
     }

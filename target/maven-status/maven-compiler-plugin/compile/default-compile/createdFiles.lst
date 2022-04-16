@@ -1,0 +1,13 @@
+com\microservice\microservice\domain\service\implementation\CustomerImpl.class
+com\microservice\microservice\web\controller\CustomerController.class
+com\microservice\microservice\web\controller\KpiController.class
+com\microservice\microservice\common\dto\CustomerDto.class
+com\microservice\microservice\domain\entity\KpiCustomers.class
+com\microservice\microservice\domain\entity\Customer.class
+com\microservice\microservice\domain\service\KpiCustomerService.class
+com\microservice\microservice\MicroserviceApplication.class
+com\microservice\microservice\common\dto\KpiCustomerDto.class
+com\microservice\microservice\persistence\repository\KpiCustomerRespository.class
+com\microservice\microservice\domain\service\CustomerService.class
+com\microservice\microservice\domain\service\implementation\KpiCustomerImpl.class
+com\microservice\microservice\persistence\repository\CustomerRepository.class

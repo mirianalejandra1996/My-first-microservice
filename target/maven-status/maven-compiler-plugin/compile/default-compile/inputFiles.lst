@@ -1,0 +1,13 @@
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\MicroserviceApplication.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\domain\service\KpiCustomerService.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\common\dto\KpiCustomerDto.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\web\controller\CustomerController.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\web\controller\KpiController.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\domain\entity\Customer.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\domain\service\CustomerService.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\domain\service\implementation\CustomerImpl.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\domain\entity\KpiCustomers.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\domain\service\implementation\KpiCustomerImpl.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\persistence\repository\KpiCustomerRespository.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\persistence\repository\CustomerRepository.java
+C:\Users\Miria\Desktop\microservice-app\microservice-app\src\main\java\com\microservice\microservice\common\dto\CustomerDto.java
